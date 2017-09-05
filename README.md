@@ -4,7 +4,7 @@
 2. Install mongo db https://docs.mongodb.com/manual/installation/
 
 ## Import the data into mongo
-
+1. go to the data folder inside of the project
 1. mongoimport --headerline --type csv --db ecomm --collection products --file products.csv
 2. mongoimport —headerline --type csv --db ecomm --collection inventory --file inventory.csv
 
