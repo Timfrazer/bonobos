@@ -10,14 +10,15 @@
 
 ## Grab files
 1. git clone https://github.com/Timfrazer/bonobos.git
-2. inside the folder *npm install*
-3. Start the mongo server mongod
-4. start node nodemon
+2. inside the folder type *npm install*
+3. Start the mongo server type *mongod*
+4. start node type *npm start*
 
 Server is now running....
 
 let's test out the API
 Test the API via CURL
-use any product id 1
+use any product id may I sugest the number *1*
+
 curl localhost:3000/product/1
 curl localhost:3000/inventory/1
