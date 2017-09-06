@@ -20,7 +20,8 @@ let's test out the API
 Test the API via CURL
 use any product id may I sugest the number *1*
 
-1. GET a product * curl localhost:3000/product/1 *
-2. GET all products * curl localhost:3000/product *
-3. GET the inventory for a product * curl localhost:3000/inventory/1 *
-3. GET all inventory * curl localhost:3000/inventory *
+1. GET a product - curl localhost:3000/product/1 
+2. GET all products - curl localhost:3000/product 
+3. GET the inventory for a product - curl localhost:3000/inventory/1 
+3. GET all inventory - curl localhost:3000/inventory 
+3. GET product & inventory - curl localhost:3000/productinventory/1 
